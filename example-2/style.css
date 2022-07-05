@@ -38,7 +38,31 @@ nav a:hover{
 
 /* social menu base styles */
 
+a.tw{
+  background-image: url(img/tw.png) no-repeat center;
+background-size: 80%;
+}
+
+a.fb{
+  background-image: url(img/fb.png) no-repeat center;
+background-size: 80%;
+}
+.social a{
+text-indent: -10000px;
+}
+
+.social{
+  max-width: 80px;
+  margin: 0 auto;
+}
 /* flex styles */
+nav ul.social{
+  flex: 1 1 0;
+  display: flex;
+}
+nav ul.social li{
+  flex: 1 1 0;
+}
 
 @media screen and (min-width: 768px){
 
@@ -52,3 +76,10 @@ nav li{
     
 } /* end media 768 */
 
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.social{
+  margin: 0;
+}

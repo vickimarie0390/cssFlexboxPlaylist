@@ -61,8 +61,15 @@ a.fb{
 }
 
 /* grid vs flex base styles */
-
-
+#blocks{
+  margin: 20px;
+}
+article{
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
 /* flex styles */
 
